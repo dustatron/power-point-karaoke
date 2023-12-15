@@ -1,11 +1,11 @@
 import OpenAI from "openai";
 import fs from "fs";
 import axios from "axios";
-import { OPENAI_API_KEY } from "../secrets.js";
+// import { OPENAI_API_KEY } from "../secrets.js";
 
 // Initialize OpenAI
 const openai = new OpenAI({
-  apiKey: OPENAI_API_KEY,
+  // apiKey: OPENAI_API_KEY,
 });
 
 const topic = "A business plan for a Pizza Help desk ";
