@@ -1,5 +1,5 @@
 "use client";
-import { Button, Container, Heading } from "@chakra-ui/react";
+import { Button, Container, Heading, Flex } from "@chakra-ui/react";
 import Link from "next/link";
 import { useRouter } from "next/navigation";
 import presentations from "../presentations";
@@ -15,14 +15,23 @@ export default function Home() {
   };
   return (
     <main>
-      <Container>
-        <Heading>PowerPoint Karaoke</Heading>
-        <Button onClick={() => handleGoToRandom()}>Random</Button>
-        <Link
-          href={{
-            pathname: "/present/" + selected,
-          }}
-        ></Link>
+      <Container padding="15px">
+        <Heading textAlign="center">PowerPoint Karaoke</Heading>
+        <Flex
+          padding={5}
+          justifyContent="center"
+          alignItems="center"
+          height="100px"
+        >
+          <Button onClick={() => handleGoToRandom()} colorScheme="facebook">
+            Random
+          </Button>
+          <Link
+            href={{
+              pathname: "/present/" + selected,
+            }}
+          ></Link>
+        </Flex>
       </Container>
     </main>
   );
