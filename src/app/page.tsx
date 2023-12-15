@@ -24,7 +24,7 @@ export default function Home() {
           height="100px"
         >
           <Button onClick={() => handleGoToRandom()} colorScheme="facebook">
-            Random
+            Start
           </Button>
           <Link
             href={{
