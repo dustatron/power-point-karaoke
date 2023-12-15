@@ -5,6 +5,10 @@ import { merge } from "./merge";
 import { powerBusinessIntelligences } from "./pb";
 import { hotDogSandwich } from "./hotdog-sandwhich";
 import { areFartsFunny } from "./are-farts-funny";
+import { catsVdogs } from "./catsVdogs";
+import { iPhoneVAndroid } from "./iPhoneVAndroid";
+import { peanutButterPickles } from "./peanutButterPickles";
+import { poolWater } from "./poolWater";
 
 const presentations = [
   hotDogSandwich,
@@ -14,6 +18,10 @@ const presentations = [
   merge,
   powerBusinessIntelligences,
   areFartsFunny,
+  catsVdogs,
+  iPhoneVAndroid,
+  peanutButterPickles,
+  poolWater,
 ];
 
 export default presentations;

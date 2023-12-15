@@ -2,6 +2,7 @@
   "name": "ppt-karaoke",
   "version": "0.1.0",
   "private": true,
+  "type": "module",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
@@ -12,8 +13,11 @@
     "@chakra-ui/react": "^2.8.2",
     "@emotion/react": "^11.11.1",
     "@emotion/styled": "^11.11.0",
+    "axios": "^1.6.2",
     "framer-motion": "^10.16.16",
     "next": "14.0.4",
+    "openai": "^4.22.0",
+    "openai-api": "^1.3.1",
     "react": "^18",
     "react-dom": "^18",
     "spectacle": "^10.1.7"
