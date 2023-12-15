@@ -1,0 +1,93 @@
+export const cursedMagicItems = [
+  {
+    slideNumber: 0,
+    title: "A Business Plan for a Cursed Magic Item Shop",
+    subTitle: "Selling Chaos in Every Fantasy City",
+  },
+  {
+    slideNumber: 1,
+    title: "The Magic Item Shop",
+    subTitle: "Where Curses are the Main Attraction",
+    copy: "Embrace the magical mishaps and delight in the curses that await!",
+    imgPrompt:
+      "A chaotic scene of a shop filled with magically malfunctioning items",
+    img: "/imgs/cursedMagicItems-1.png",
+    imgName: "cursedMagicItems-1",
+  },
+  {
+    slideNumber: 2,
+    title: "Market Potential",
+    subTitle: "Tapping into the Dark Side",
+    copy: "With a rising demand for unpredictable outcomes, the cursed magic item market is booming!",
+    imgPrompt: "An exponential graph showing a skyrocketing demand curve",
+    img: "/imgs/cursedMagicItems-2.png",
+    imgName: "cursedMagicItems-2",
+  },
+  {
+    slideNumber: 3,
+    title: "Curse-o-nomics",
+    subTitle: "Profits in Malevolence",
+    copy: "Our pricing strategy: Higher the curse level, higher the price! It's a diabolically good deal!",
+    imgPrompt:
+      "A dollar sign intertwined with a swirling aura of malevolent energy",
+    img: "/imgs/cursedMagicItems-3.png",
+    imgName: "cursedMagicItems-3",
+  },
+  {
+    slideNumber: 4,
+    title: "Random Placement Technique",
+    subTitle: "Spreading Chaos Everywhere",
+    copy: "Our cursed magic item shop appears randomly in any fantasy city, making customers' lives delightfully absurd!",
+    imgPrompt:
+      "A map with dotted lines randomly connecting various fantasy cities",
+    img: "/imgs/cursedMagicItems-4.png",
+    imgName: "cursedMagicItems-4",
+  },
+  {
+    slideNumber: 5,
+    title: "Cursed Item Showcase",
+    subTitle: "A Tantalizing Array of Misfortune",
+    copy: "Watch in awe as our cursed magic items backfire in ways you couldn't even imagine!",
+    imgPrompt:
+      "An assortment of whimsical cursed objects: wands, rings, amulets, etc.",
+    img: "/imgs/cursedMagicItems-5.png",
+    imgName: "cursedMagicItems-5",
+  },
+  {
+    slideNumber: 6,
+    title: "Customer Testimonials",
+    subTitle: "Happiness in Unwanted Outcomes",
+    copy: "Listen to our satisfied customers who can't stop talking about the unexpected twists in their lives!",
+    imgPrompt: "Speech bubbles with nonsensical praise from customers",
+    img: "/imgs/cursedMagicItems-6.png",
+    imgName: "cursedMagicItems-6",
+  },
+  {
+    slideNumber: 7,
+    title: "Quality Control",
+    subTitle: "Ensuring the Right Amount of Wrong",
+    copy: "Our team of experts ensures each cursed magic item is meticulously infused with a perfect blend of chaos and mischief!",
+    imgPrompt: "Quality control checklist with absurd parameters and symbols",
+    img: "/imgs/cursedMagicItems-7.png",
+    imgName: "cursedMagicItems-7",
+  },
+  {
+    slideNumber: 8,
+    title: "Cursed Item Replacements",
+    subTitle: "Unhappiness Guaranteed!",
+    copy: "Upon unhappiness, we offer a replacement item, ensuring a perpetual feeling of chaos for our customers!",
+    imgPrompt: "A conveyor belt of cursed items being continuously exchanged",
+    img: "/imgs/cursedMagicItems-8.png",
+    imgName: "cursedMagicItems-8",
+  },
+  {
+    slideNumber: 9,
+    title: "Future Expansion",
+    subTitle: "Spreading Curses Worldwide",
+    copy: "Our plan involves global domination of cursed magic item shops, turning the world into a beautifully twisted realm!",
+    imgPrompt:
+      "A world map with red dots spreading across various locations indicating future shop expansions",
+    img: "/imgs/cursedMagicItems-9.png",
+    imgName: "cursedMagicItems-9",
+  },
+];

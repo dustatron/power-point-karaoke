@@ -8,16 +8,11 @@ const openai = new OpenAI({
   apiKey: OPENAI_API_KEY,
 });
 
-const topic = "Save the planet through Legos made out of recycled hair";
-const name = "hairLegos";
+const topic = "A business plan for a Pizza Help desk ";
+const name = "PizzaHelpDesk";
 const slideNumber = 10;
 
 async function askChatGPT(prompt: string) {
-  // const chatCompletion = await openai.chat.completions.create({
-  //   messages: [{ role: "user", content: "Say this is a test" }],
-  //   model: "gpt-3.5-turbo",
-  // });
-  // return chatCompletion.choices[0].message
   const params: OpenAI.Chat.ChatCompletionCreateParams = {
     messages: [{ role: "user", content: workingPrompt }],
     model: "gpt-3.5-turbo",
