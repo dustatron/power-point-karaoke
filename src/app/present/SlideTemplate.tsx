@@ -72,6 +72,8 @@ const SlideTemplate = ({ title, subTitle, copy, img }: SlideProps) => {
               layout="fill"
               src={img || "https://source.unsplash.com/random/500×600"}
               alt="random image"
+              quality={75}
+              priority={true}
             />
           </div>
         </FlexBox>
