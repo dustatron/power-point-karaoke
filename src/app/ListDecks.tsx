@@ -12,10 +12,9 @@ import {
   Tr,
 } from "@chakra-ui/react";
 import React, { useState } from "react";
-import { SlideProps } from "../app/present/SlideTemplate";
 import { Deck } from "@/presentations";
 import Link from "next/link";
-import { Box } from "spectacle";
+import { randomUUID } from "crypto";
 
 type Props = {
   decks: Deck[];
@@ -43,7 +42,7 @@ function ListDecks({ decks }: Props) {
                 </Thead>
                 <Tbody>
                   {decks.map((deck, index) => (
-                    <Tr>
+                    <Tr key={randomUUID()}>
                       <Link color="teal.500" href={`/present/${index}`}>
                         <Td color="teal.500">{deck[0].title}</Td>
                       </Link>
