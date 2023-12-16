@@ -1,4 +1,6 @@
-export const hollowMoon = [
+import { Deck } from ".";
+
+export const hollowMoon: Deck = [
   {
     slideNumber: 0,
     title: "The Hollow Moon Chronicles",

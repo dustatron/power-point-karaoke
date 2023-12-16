@@ -1,4 +1,6 @@
-export const hotDogSandwich = [
+import { Deck } from ".";
+
+export const hotDogSandwich: Deck = [
   {
     slideNumber: 0,
     title: "The Great Debate",

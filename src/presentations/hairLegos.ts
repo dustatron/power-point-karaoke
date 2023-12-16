@@ -1,4 +1,6 @@
-export const hairLegos = [
+import { Deck } from ".";
+
+export const hairLegos: Deck = [
   {
     slideNumber: 0,
     title: "Save the Planet with Recycled Hair Legos",

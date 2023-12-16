@@ -1,4 +1,6 @@
-export const secondhandToothbrushes = [
+import { Deck } from ".";
+
+export const secondhandToothbrushes: Deck = [
   {
     slideNumber: 0,
     title: "Innovations in Secondhand toothbrushes:",

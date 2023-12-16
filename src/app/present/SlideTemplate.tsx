@@ -3,7 +3,7 @@ import { FlexBox, Heading, Slide, Text, Box } from "spectacle";
 
 import Image from "next/image";
 
-type SlideProps = {
+export type SlideProps = {
   slideNumber?: number | string;
   title: string;
   subTitle: string;

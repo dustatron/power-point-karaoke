@@ -1,4 +1,6 @@
-export const tacoDoughnut = [
+import { Deck } from ".";
+
+export const tacoDoughnut: Deck = [
   {
     slideNumber: 0,
     title: "Taco and Doughnut Sales",

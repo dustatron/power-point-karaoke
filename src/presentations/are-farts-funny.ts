@@ -1,4 +1,6 @@
-export const areFartsFunny = [
+import { Deck } from ".";
+
+export const areFartsFunny: Deck = [
   {
     slideNumber: 0,
     title: "Are Farts Funny?",

@@ -1,8 +1,5 @@
 import { tacoDoughnut } from "./taco-doughnut";
-import { powerData } from "./power-data";
 import { aiPower } from "./ai-power";
-import { merge } from "./merge";
-import { powerBusinessIntelligences } from "./pb";
 import { hotDogSandwich } from "./hotdog-sandwhich";
 import { areFartsFunny } from "./are-farts-funny";
 import { catsVdogs } from "./catsVdogs";
@@ -15,14 +12,17 @@ import { mouseInvation } from "./mouseInvation";
 import { secondhandToothbrushes } from "./secondhandToothbrushes";
 import { cursedMagicItems } from "./cursedMagicItems";
 import { PizzaHelpDesk } from "./PizzaHelpDesk";
+import { hotdogEarth } from "./hotdogEarth";
+import { santaIsReal } from "./santa-is-real";
+import { birdsRobots } from "./birds-robots";
+import { bigfoot } from "./bigfoot";
+import { catLasagna } from "./cat-lasagna";
+import { minivan } from "./minivan";
 
-const presentations = [
+const presentations: Deck[] = [
   hotDogSandwich,
   tacoDoughnut,
-  powerData,
   aiPower,
-  merge,
-  powerBusinessIntelligences,
   areFartsFunny,
   catsVdogs,
   iPhoneVAndroid,
@@ -34,6 +34,24 @@ const presentations = [
   secondhandToothbrushes,
   cursedMagicItems,
   PizzaHelpDesk,
+  hotdogEarth,
+  santaIsReal,
+  birdsRobots,
+  bigfoot,
+  catLasagna,
 ];
 
 export default presentations;
+
+export type Slide = {
+  slideNumber: string | number;
+  title: string;
+  subTitle: string;
+  copy?: string;
+  imgPrompt?: string;
+  img?: string;
+  imgName?: string;
+  imgDir?: string;
+};
+
+export type Deck = Slide[];

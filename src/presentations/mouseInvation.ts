@@ -1,4 +1,6 @@
-export const mouseInvation = [
+import { Deck } from ".";
+
+export const mouseInvation: Deck = [
   {
     slideNumber: 0,
     title: "Possible Mouse Invasion",

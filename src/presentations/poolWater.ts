@@ -1,4 +1,6 @@
-export const poolWater = [
+import { Deck } from ".";
+
+export const poolWater: Deck = [
   {
     slideNumber: 0,
     title: "The Untapped Market",

@@ -1,4 +1,6 @@
-export const catsVdogs = [
+import { Deck } from ".";
+
+export const catsVdogs: Deck = [
   {
     slideNumber: 0,
     title: "Are Cats Better than Dogs?",

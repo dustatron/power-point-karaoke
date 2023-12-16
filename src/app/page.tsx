@@ -1,38 +1,34 @@
 "use client";
-import { Button, Container, Heading, Flex } from "@chakra-ui/react";
-import Link from "next/link";
+import { Button, Heading, Box, Stack, Center } from "@chakra-ui/react";
 import { useRouter } from "next/navigation";
 import presentations from "../presentations";
+import ListDecks from "./ListDecks";
 
 export default function Home() {
   const route = useRouter();
   const getRandom = (max: number) => Math.floor(Math.random() * max);
   const numberOfDecks = presentations.length;
-  const selected = String(getRandom(numberOfDecks));
 
   const handleGoToRandom = () => {
     route.push(`/present/${getRandom(numberOfDecks)}`);
   };
   return (
-    <main>
-      <Container padding="15px">
-        <Heading textAlign="center">PowerPoint Karaoke</Heading>
-        <Flex
-          padding={5}
-          justifyContent="center"
-          alignItems="center"
-          height="100px"
-        >
-          <Button onClick={() => handleGoToRandom()} colorScheme="facebook">
-            Start
-          </Button>
-          <Link
-            href={{
-              pathname: "/present/" + selected,
-            }}
-          ></Link>
-        </Flex>
-      </Container>
-    </main>
+    <Box padding="15px" height="vh" width="100%">
+      <Heading textAlign="center">PowerPoint Karaoke</Heading>
+      <Stack
+        padding={5}
+        justifyContent="center"
+        alignItems="center"
+        height="100px"
+        spacing={5}
+      >
+        <Button onClick={() => handleGoToRandom()} colorScheme="facebook">
+          Random Start
+        </Button>
+      </Stack>
+      <Center>
+        <ListDecks decks={presentations} />
+      </Center>
+    </Box>
   );
 }

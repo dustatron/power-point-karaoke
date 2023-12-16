@@ -1,4 +1,6 @@
-export const aiPower = [
+import { Deck } from ".";
+
+export const aiPower: Deck = [
   {
     slideNumber: 0,
     title: "Unleashing AI Power",
