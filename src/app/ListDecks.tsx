@@ -14,13 +14,14 @@ import {
 import React, { useState } from "react";
 import { Deck } from "@/presentations";
 import Link from "next/link";
-import { randomUUID } from "crypto";
+import ShortUniqueId from "short-unique-id";
 
 type Props = {
   decks: Deck[];
 };
 
 function ListDecks({ decks }: Props) {
+  const { randomUUID } = new ShortUniqueId({ length: 10 });
   const [isShowing, setIsShowing] = useState(false);
   return (
     <Stack spacing="5" width="50%">
